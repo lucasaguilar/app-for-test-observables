@@ -1,0 +1,8 @@
+<p>Word showing in interval...</p>
+
+<input [(ngModel)]="myInterval" #ctrl="ngModel" />
+
+<button (click)="setNewInterval()">Set new interval...</button>
+<button (click)="stop()">Stop...</button>
+
+<div *ngFor="let item of arrayMessage">{{ item }}</div>
